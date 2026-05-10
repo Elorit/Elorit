@@ -181,4 +181,13 @@ hr {
     }
 }
 
+.botoes-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+.botoes-wrapper ul li a {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+}
