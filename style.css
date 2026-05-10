@@ -112,15 +112,14 @@ hr {
 .pagedoll {
     animation-name: bounce2;
     animation-duration: 0.3s;
-    position: absolute;
+
     max-height: 250px;
-    right: -150px;
-    bottom: 0px;
+
     filter: 
-    drop-shadow(1px 1px 0 white)
-    drop-shadow(-1px -1px 0 white)
-    drop-shadow(1px -1px 0 white)
-    drop-shadow(-1px 1px 0 white);
+    drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black)
+    drop-shadow(1px -1px 0 black)
+    drop-shadow(-1px 1px 0 black);
 }
 
 .banner {
