@@ -202,8 +202,8 @@
                      </div>
                      <!-- end third row -->
 
-                        <div style="position: absolute; right: -100px; bottom: 0px;">
-                            <span class="tt" data-bs-placement="top" title="">
+                        <div style="position: absolute; right: -150px; bottom: 0px;">
+                            <span id="tools" class="tt" data-bs-placement="top" title="">
                                 <img class="pagedoll d-none d-md-block" id="imgRand" src=""/>
                             </span>
                         </div>
@@ -212,9 +212,11 @@
         </div>
     </div>
     <script language="javascript">
-  // random number between 1 and 100
-        var numRand = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
+        // random number gen
+        const credits = ["Shiro", "Andreno", "Elorit"];
+        var numRand = Math.floor(Math.random() * (2 - 0 + 1)) + 0;
         document.getElementById("imgRand").src = "imgs/IMG_"+numRand+".webp";
+        document.getElementById("tools").title = "art by: "+credits[numRand];
     </script>
 <script>
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
