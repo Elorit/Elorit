@@ -15,10 +15,9 @@
   --h1: #F5E5C3; 
 }
 
-
-
 body#main {
-    background: linear-gradient(150deg,rgb(94, 35, 35) 15%,  rgb(20, 7, 7) 100%);
+    
+    background-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0px, rgba(255, 255, 255, 0.05) 1px,transparent 1px, transparent 51px),repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0px, rgba(255, 255, 255, 0.05) 1px,transparent 1px, transparent 51px),linear-gradient(150deg,rgb(94, 35, 35) 15%,  rgb(20, 7, 7) 100%);
 }
 
 h1 {
@@ -113,7 +112,7 @@ hr {
     animation-name: bounce2;
     animation-duration: 0.3s;
 
-    max-height: 250px;
+    max-height: 350px;
 
     filter: 
     drop-shadow(1px 1px 0 black)
